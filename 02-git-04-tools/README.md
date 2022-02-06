@@ -46,7 +46,7 @@ Merge: 56cd7859e 9ea88f22f
 Так как это мерж коммит у него 2 родителя 
 56cd7859e и 9ea88f22f
 
-Смотрим первого рдителя
+Смотрим первого родителя
 
 git show b8d720^
 
@@ -124,11 +124,11 @@ git log -L :'func globalPluginDirs':plugins.go --oneline
 
 ## 7. Кто автор функции `synchronizedWriters`? 
 
-Решение:
+### Решение:
 
 git log -S'func synchronizedWriters' --pretty=format:'%h - %an %ae'
 
-Ответ:
+### Ответ:
 
 git show 5ac311e2a - Martin Atkins mart@degeneration.co.uk
 
