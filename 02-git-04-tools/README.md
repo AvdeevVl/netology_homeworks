@@ -40,7 +40,7 @@ commit 85024d3100126de36331c6982bfaac02cdab9e76 (tag: v0.12.23)
 
 git show b8d720
 
-commit b8d720f8340221f2146e4e4870bf2ee0bc48f2d5
+commit b8d720f8340221f2146e4e4870bf2ee0bc48f2d5  
 Merge: 56cd7859e 9ea88f22f
 
 Так как это мерж коммит у него 2 родителя 
@@ -48,13 +48,12 @@ Merge: 56cd7859e 9ea88f22f
 
 Смотрим первого родителя
 
-git show b8d720^
-
+git show b8d720^  
 commit 56cd7859e05c36c06b56d013b55a252d0bb7e158
 
 Смотрим второго родителя
 
-git show b8d720^2
+git show b8d720^2  
 commit 9ea88f22fc6269854151c571162c5bcf958bee2b
 
 ### Ответ:
