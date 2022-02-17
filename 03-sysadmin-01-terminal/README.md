@@ -122,7 +122,8 @@ sudo apt-get update && sudo apt-get install vagrant
     ```
     mkdir /tmp/new_path_directory && cp /usr/bin/bash /tmp/new_path_directory/ && export PATH="/tmp/new_path_directory:$PATH"
     ```
-    
+    ![type](https://user-images.githubusercontent.com/93952387/153720081-262e16e2-c37b-4724-8ac5-fb8f12546a02.png)
+
 
 1. Чем отличается планирование команд с помощью `batch` и `at`?
 
