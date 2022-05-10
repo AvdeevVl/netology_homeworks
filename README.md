@@ -5,4 +5,9 @@
 
 ## Модуль 1. Введение в DevOps
 
-1.1. [x] [Введение в DevOps](01-intro-01/README.md)
+* 1.1. [x] [Введение в DevOps](01-intro-01/README.md)  
+* 2.3. [x] [Ветвления в Git](02-git-03-branching/README.md)  
+* 2.4. [x] [Инструменты Git](02-git-04-tools/README.md)  
+* 3.1. [x] [Работа в терминале, лекция 1](03-sysadmin-01-terminal/README.md)  
+* 3.2. [x] [Работа в терминале, лекция 2](03-sysadmin-02-terminal/README.md)
+* 3.3. [x] [Операционные системы, лекция 1](03-sysadmin-03-os/README.md)
