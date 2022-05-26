@@ -12,3 +12,4 @@
 * 3.2. [x] [Работа в терминале, лекция 2](03-sysadmin-02-terminal/README.md)
 * 3.3. [x] [Операционные системы, лекция 1](03-sysadmin-03-os/README.md)
 * 3.4. [x] [Операционные системы, лекция 2](03-sysadmin-04-os/README.md)
+* 3.5. [x] [Файловые системы](03-sysadmin-05-fs/README.md)
