@@ -2,23 +2,26 @@
 
 1. Проверьте список доступных сетевых интерфейсов на вашем компьютере. Какие команды есть для этого в Linux и в Windows?  
 
-Ответ:
+Ответ:  
 Linux  
 `ip link show`  
 
+![2022-06-04_16-20-54](https://user-images.githubusercontent.com/93952387/172020619-2960ecd9-d4f3-42c9-859f-1e18f04a8066.png)  
 
 
 `ip -c -br link`  
 
+![2022-06-04_16-21-48](https://user-images.githubusercontent.com/93952387/172020628-b861f599-b306-4df2-95e2-27e38a565b88.png)  
 
 
 `ifconfig -a`  
 
-
+![2022-06-04_16-22-10](https://user-images.githubusercontent.com/93952387/172020638-3deff647-8556-49f9-98bd-866ab9b7b2a6.png)  
 
 Windows  
 `ipconfig /all`
 
+![2022-06-04_16-23-35](https://user-images.githubusercontent.com/93952387/172020648-f3932698-3e46-41f4-a84b-35bf891cc31d.png)  
 
 
 ---
@@ -35,6 +38,7 @@ Windows
 `lldpcli show interfaces`  
 `lldpcli show neigh`  
 
+![2022-06-04_16-34-29](https://user-images.githubusercontent.com/93952387/172020715-4581b235-6a9f-4252-93d1-a368fd5b708d.png)  
 
 
 ---
@@ -64,7 +68,7 @@ network:
 Примененяем конфигурацию:  
 `sudo netplan apply`  
 Проверяем:  
-
+![2022-06-04_16-58-45](https://user-images.githubusercontent.com/93952387/172020738-f24f62c1-17ef-433b-999e-6042145dc9e8.png)  
 
 ---
 
@@ -136,7 +140,8 @@ bonds:
 `ipcalc -b 10.10.10.0/29`  
 `ipcalc 10.10.10.0 255.255.255.0 255.255.255.248`
 
-
+![2022-06-04_17-15-55](https://user-images.githubusercontent.com/93952387/172020757-63012498-1fef-4066-8b6a-d49d1ebf662b.png)  
+![2022-06-04_17-16-15](https://user-images.githubusercontent.com/93952387/172020766-ddc9b759-5a33-4039-9ee8-624d06d89381.png)  
 
 ---
 
@@ -147,6 +152,7 @@ bonds:
 Маска `/26` `255.255.255.192` на назначаемых 62 хоста  
 `100.64.0.0/26`  
 
+![2022-06-04_17-23-29](https://user-images.githubusercontent.com/93952387/172020788-77218d66-0afb-4d70-a108-5a6de7f25521.png)  
 
 
 ---
