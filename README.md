@@ -23,3 +23,4 @@
 * 5.3. [x] [Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера](05-virt-03-docker/README.md)
 * 5.4. [x] [Оркестрация группой Docker контейнеров на примере Docker Compose](05-virt-04-docker-compose/README.md)
 * 5.5. [x] [Оркестрация кластером Docker контейнеров на примере Docker Swarm](05-virt-05-docker-swarm/README.md)
+* 6.1. [x] [Типы и структура СУБД](06-db-01-basics/README.md)
