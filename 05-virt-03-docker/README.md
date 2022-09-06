@@ -32,14 +32,15 @@ https://hub.docker.com/r/avdeevvl/nginx
 [Dockerfile](./src/nginx/Dockerfile)  
 [Index.html](./src/nginx/index.html)
 
-Логи выполнения:
 
-[Dockerfile](./src/nginx/Dockerfile)
+<details>
+<summary>Логи выполнения:</summary>
+ 
 ```dockerfile
 FROM nginx:latest
 COPY ./index.html /usr/share/nginx/html/index.html
 ```
-Собираем образа из [Dockerfile](./src/nginx/Dockerfile)
+Собираем образ из [Dockerfile](./src/nginx/Dockerfile)
 
 ```sh
 gips@UD22:~/nginx$ docker build -t avdeevvl/nginx .
@@ -117,6 +118,7 @@ ab226bc2fd8a: Pushed
 1.0: digest: sha256:bc53eb98ff5ac58f9e9eb4ab856669bcc1aa7e11464510bb0346cf6cc51ce8bb size: 1777
 gips@UD22:~/nginx$ 
 ```
+</details>
 
 ## Задача 2
 
@@ -158,10 +160,10 @@ Docker контейнер, т.к. не требуется много ресур�
 - Мониторинг-стек на базе Prometheus и Grafana;  
 Докер. Данный стек не требователен к ресурсам. Контейнеризация позволит легко его масштабировать.
 
-- MongoDB, как основное хранилище данных для java-приложения;
+- MongoDB, как основное хранилище данных для java-приложения;  
 Докер подключить источники постоянных данных через volume подходит для тестовой среды. Для продакшена рекомендованы варианты развертывания на виртуальной машине или физическом сервере.
 
-- Gitlab сервер для реализации CI/CD процессов и приватный (закрытый) Docker Registry.
+- Gitlab сервер для реализации CI/CD процессов и приватный (закрытый) Docker Registry.  
 На виртуальной машине. Требовательность по ресурсам надежность хранения данных и легкость резервного копирования и репликации.
 
 
@@ -243,7 +245,7 @@ https://hub.docker.com/r/avdeevvl/ansible
 [Dockerfile](.\src\build\ansible\Dockerfile)  
 
 <details>
-<summary>Собираем образа из Dockerfile</summary>
+<summary>Собираем образ из Dockerfile</summary>
 
 ```sh
 gips@UD22:~/ansible$ docker build -t avdeevvl/ansible:2.10.0 .
@@ -624,8 +626,6 @@ Removing intermediate container 49102fa366bc
 Successfully built 8e23408f1dc4
 Successfully tagged avdeevvl/ansible:2.10.0
 ```
-</details>
-
 Загружаем в DockerHub
 ```sh
 gips@UD22:~/ansible$ docker push avdeevvl/ansible:2.10.0
@@ -636,6 +636,7 @@ The push refers to repository [docker.io/avdeevvl/ansible]
 2.10.0: digest: sha256:c9df468ee27cd348e1efd6edefa837782102e24e0141c9cdb9a057720b3517d8 size: 947
 
 ```
-
+ 
+</details>
 ---
 
