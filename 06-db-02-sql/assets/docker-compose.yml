@@ -1,0 +1,21 @@
+version: "3.9"
+
+networks:
+  postgres:
+    driver: bridge
+
+services:
+  postgres:
+    image: postgres:12
+    container_name: postgres
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./backup:/var/lib/postgresql/backup
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "password"
+    ports:
+      - 5432:5432
+    networks:
+      - postgres
+
