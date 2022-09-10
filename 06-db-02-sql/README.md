@@ -9,7 +9,7 @@
 
 Ответ:  
 
-[docker-compose.yaml](./assets/docker-compose.yaml)
+[docker-compose.yaml](./06-db-02-sql/assets/docker-compose.yaml)
 ```Docker
 version: "3.9"
 
