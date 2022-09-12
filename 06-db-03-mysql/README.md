@@ -150,9 +150,9 @@ SELECT table_schema,table_name,engine FROM information_schema.tables WHERE table
 ALTER TABLE orders ENGINE = MyISAM;
 ```
 на `InnoDB`: 
-
+```sql
 ALTER TABLE orders ENGINE = InnoDB;
-
+```
 ![](./src/6333.png)  
 
 
