@@ -1,0 +1,6 @@
+cluster.name: netology_test
+discovery.type: single-node
+path.data: /var/lib/data
+network.host: 0.0.0.0
+discovery.seed_hosts: ["127.0.0.1", "[::1]"]
+xpack.ml.enabled: false
