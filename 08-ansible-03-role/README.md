@@ -30,6 +30,13 @@
 10. Выложите playbook в репозиторий.
 11. В ответ приведите ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
 
+Ответ:   
+Playbook:  
+https://github.com/AvdeevVl/08-ansible-03-role  
+Roles:  
+https://github.com/AvdeevVl/elastic-role  
+https://github.com/AvdeevVl/kibana-role  
+
 ## Необязательная часть
 
 1. Проделайте схожие манипуляции для создания роли logstash.
